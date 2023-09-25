@@ -6,13 +6,15 @@
         xmlns:local="clr-namespace:FileDiffCompare"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
     <Grid>
         <Menu VerticalAlignment="Top">
             <MenuItem Header="New Tab" Click="OnNewTab"/>
             <MenuItem Header="About" Click="OnAboutClick"/>
         </Menu>
-        <!-- Margin="0,23,0,0" TextBox -->
-        <TabControl Name="tabControl" Margin="0,23,0,0">
+        <TabControl ItemsSource="{Binding NewTabCommand}" Name="tabControl" Margin="0,23,0,0">
 
         </TabControl>
     </Grid>

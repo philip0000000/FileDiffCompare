@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\MyPrograms\github\FileDiffCompare\FileDiffCompare\App.xaml
-2-673640731
+2280048170
 
-4305249611
+71564696046
 194237474483
-DetachedTabWindow.xaml;MainWindow.xaml;
+Views\DetachedTabWindow.xaml;Views\MainWindow.xaml;
 
 False
 

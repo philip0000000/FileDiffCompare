@@ -7,15 +7,15 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="DetachedTabWindow.xaml.cs">
+    <Compile Update="Views\DetachedTabWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="DetachedTabWindow.xaml">
+    <Page Update="Views\DetachedTabWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="Views\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
